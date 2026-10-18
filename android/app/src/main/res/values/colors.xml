@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Deep Lock warning popup palette (matches the Student OS dark theme) -->
+    <color name="dl_background">#FF070C1A</color>
+    <color name="dl_surface_container">#FF131C33</color>
+    <color name="dl_surface_container_high">#FF1B2542</color>
+    <color name="dl_surface_container_highest">#FF243152</color>
+    <color name="dl_primary">#FF4EDEA3</color>
+    <color name="dl_primary_container">#FF10B981</color>
+    <color name="dl_on_primary">#FF003824</color>
+    <color name="dl_secondary">#FF4CD7F6</color>
+    <color name="dl_tertiary">#FFFFB95F</color>
+    <color name="dl_on_surface">#FFDAE2FD</color>
+    <color name="dl_on_surface_variant">#FF94A5B8</color>
+    <color name="dl_outline">#FF3D4E68</color>
+</resources>

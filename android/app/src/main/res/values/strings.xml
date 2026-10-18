@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Student OS</string>
+    <string name="title_activity_main">Student OS</string>
+    <string name="accessibility_service_description">Student OS uses Accessibility Service only to detect which app is in the foreground during Focus Sessions. It identifies blocked apps so the warning screen can be shown. The service does not read screen content, passwords, or personal data. No data is transmitted off-device.</string>
+    <string name="dl_locked_app_icon">Blocked app icon</string>
+</resources>
