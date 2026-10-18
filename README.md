@@ -6,6 +6,8 @@
 
 Focus timer · Tasks · Habits · Planner · Analytics · Deep Lock — in one premium, private app.
 
+[![CI](https://github.com/jainam6610/student-os/actions/workflows/ci.yml/badge.svg)](https://github.com/jainam6610/student-os/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/jainam6610/student-os?include_prereleases&sort=semver)](https://github.com/jainam6610/student-os/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19-61dafb?logo=react)](https://react.dev)
@@ -118,6 +120,18 @@ Student OS is **local-first by design**. There is no account and no backend.
 - The Android **Accessibility Service** is used *only* during a Deep Lock focus session to detect the foreground app. It does **not** read screen content, messages, passwords or typed text.
 
 See [`docs/PRIVACY_POLICY.md`](./docs/PRIVACY_POLICY.md) and [`docs/SECURITY.md`](./docs/SECURITY.md) for details.
+
+## Roadmap
+
+- [ ] Recurring tasks
+- [ ] Markdown notes per subject
+- [ ] Drag-and-drop task ordering
+- [ ] Focus mode white-noise / lo-fi player
+- [ ] End-to-end encrypted sync
+- [ ] Flashcards with spaced repetition
+- [ ] Desktop builds (Tauri)
+
+See the [open issues](https://github.com/jainam6610/student-os/issues) for the full list.
 
 ## Contributing
 
