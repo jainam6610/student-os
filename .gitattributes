@@ -1,0 +1,28 @@
+# Normalize line endings: check in LF, let the working tree decide.
+* text=auto eol=lf
+
+# Shell / Gradle wrappers must keep LF
+*.sh        text eol=lf
+gradlew     text eol=lf
+*.bat       text eol=crlf
+
+# Binary assets — never touch
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.webp      binary
+*.ico       binary
+*.svg       text eol=lf
+*.mp3       binary
+*.wav       binary
+*.jar       binary
+*.jks       binary
+*.keystore  binary
+*.ttf       binary
+*.woff      binary
+*.woff2     binary
+
+# Lockfiles: treat as generated, no diff noise
+pnpm-lock.yaml linguist-generated=true
+package-lock.json linguist-generated=true

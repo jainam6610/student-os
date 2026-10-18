@@ -1,0 +1,58 @@
+# IDE and editor directories
+.idea/
+.vscode/
+*.iml
+
+# AI agent configuration
+.opencode/
+
+# Generated build artifacts
+*.tsbuildinfo
+
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+.vercel/
+
+# Environment variables
+.env*.local
+
+# Keystore / signing (android/)
+*.jks
+*.keystore
+key.properties
+
+# Logs and crash dumps
+*.log
+hs_err_pid*.log
+replay_pid*.log
+
+# Test screenshots at root
+*screenshot*.png
+
+# Common ignores
+node_modules
+.next/
+out/
+.DS_Store
+android/local.properties
+
+# Cloudflare Pages
+.cloudflare/
+
+# Sensitive signing material / certificates / secrets
+jainam
+*.p12
+*.pfx
+*.cer
+*.der
+*.pem
+
+# Local regression screenshots at repo root
+regression-*.png
+
+# Local dev server logs
+/serve.log
