@@ -2,6 +2,37 @@
   "name": "student-os",
   "version": "1.2.0",
   "private": true,
+  "description": "Offline-first, privacy-first study workspace — focus timer, tasks, habits, planner and analytics in one calm app.",
+  "license": "MIT",
+  "author": "Jainam Karnawat <jainamkarnawat8@gmail.com>",
+  "homepage": "https://github.com/jainam6610/student-os#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jainam6610/student-os.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jainam6610/student-os/issues"
+  },
+  "keywords": [
+    "student",
+    "productivity",
+    "study",
+    "focus",
+    "pomodoro",
+    "habit-tracker",
+    "planner",
+    "nextjs",
+    "react",
+    "typescript",
+    "pwa",
+    "offline-first",
+    "capacitor",
+    "android"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@11.3.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
