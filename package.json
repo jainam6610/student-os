@@ -52,7 +52,7 @@
     "@capacitor/core": "^8.4.1",
     "clsx": "^2.1.1",
     "date-fns": "^4.3.0",
-    "dexie": "^4.4.2",
+    "dexie": "^4.4.6",
     "framer-motion": "^12.40.0",
     "lucide-react": "^0.564.0",
     "next": "16.2.6",
