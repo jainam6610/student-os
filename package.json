@@ -54,7 +54,7 @@
     "date-fns": "^4.3.0",
     "dexie": "^4.4.2",
     "framer-motion": "^12.40.0",
-    "lucide-react": "^0.564.0",
+    "lucide-react": "^1.57.0",
     "next": "16.2.6",
     "react": "^19",
     "react-dom": "^19",
