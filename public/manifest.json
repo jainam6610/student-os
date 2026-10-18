@@ -1,0 +1,113 @@
+{
+  "name": "Student OS - Study Companion",
+  "short_name": "StudentOS",
+  "description": "An all-in-one study tracker, deep work timer, planner, and productivity dashboard designed for ambitious students.",
+  "start_url": "/?source=pwa",
+  "display": "standalone",
+  "display_override": ["standalone", "window-controls-overlay"],
+  "background_color": "#0a0a14",
+  "theme_color": "#0a0a14",
+  "orientation": "portrait-primary",
+  "lang": "en-US",
+  "scope": "/",
+  "id": "/",
+  "version": "1.1.0",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-light-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-dark-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["education", "productivity", "utilities"],
+  "screenshots": [
+    {
+      "src": "/screenshots/dashboard.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Dashboard overview showing tasks, habits, and focus time"
+    },
+    {
+      "src": "/screenshots/tasks.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Task management with priority levels and due dates"
+    },
+    {
+      "src": "/screenshots/focus.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Focus mode timer for deep work sessions"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Quick Capture",
+      "short_name": "Capture",
+      "description": "Quickly add a task",
+      "url": "/?source=shortcut&view=tasks",
+      "icons": [{ "src": "/apple-icon.png", "sizes": "180x180" }]
+    },
+    {
+      "name": "Start Focus Session",
+      "short_name": "Focus",
+      "description": "Start a focus session",
+      "url": "/?view=focus&source=shortcut",
+      "icons": [{ "src": "/apple-icon.png", "sizes": "180x180" }]
+    },
+    {
+      "name": "View Tasks",
+      "short_name": "Tasks",
+      "description": "View your tasks",
+      "url": "/?view=tasks&source=shortcut",
+      "icons": [{ "src": "/apple-icon.png", "sizes": "180x180" }]
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Home",
+      "description": "Go to dashboard",
+      "url": "/?view=dashboard&source=shortcut",
+      "icons": [{ "src": "/apple-icon.png", "sizes": "180x180" }]
+    }
+  ],
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}

@@ -1,0 +1,35 @@
+# ─────────────────────────────────────────────────────────
+#  Student OS — Cloudflare Pages Security & Cache Headers
+#  Applied automatically by Cloudflare Pages at deploy time
+# ─────────────────────────────────────────────────────────
+
+# Security headers for all routes
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# Service worker: never cache, must be fresh
+/sw.js
+  Cache-Control: public, max-age=0, must-revalidate
+  Service-Worker-Allowed: /
+
+# HTML: never cache — always check for fresh content on deploy
+/index.html
+  Cache-Control: no-cache, no-store, must-revalidate
+
+# Content-hashed static assets: cache forever on CDN
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Static images and assets with content hashes
+/icon*
+  Cache-Control: public, max-age=31536000, immutable
+/apple-icon.png
+  Cache-Control: public, max-age=31536000, immutable
+
+# Manifest: short cache (updates with deploy)
+/manifest.json
+  Cache-Control: public, max-age=0, must-revalidate

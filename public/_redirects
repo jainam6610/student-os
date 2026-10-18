@@ -1,0 +1,10 @@
+# ─────────────────────────────────────────────────────────
+#  Student OS — Cloudflare Pages Redirects
+#  SPA fallback and URL normalization
+# ─────────────────────────────────────────────────────────
+
+# SPA fallback: all routes serve index.html
+/*  /index.html  200
+
+# Force trailing slash (consistent with next.config.js trailingSlash: true)
+# Already handled by Next.js static export output
