@@ -9,6 +9,7 @@ Focus timer · Tasks · Habits · Planner · Analytics · Deep Lock — in one p
 [![CI](https://github.com/jainam6610/student-os/actions/workflows/ci.yml/badge.svg)](https://github.com/jainam6610/student-os/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/jainam6610/student-os?include_prereleases&sort=semver)](https://github.com/jainam6610/student-os/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Google Play](https://img.shields.io/badge/Google%20Play-Install-3DDC84?logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.jainam.studentos)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19-61dafb?logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178c6?logo=typescript)](https://www.typescriptlang.org)
@@ -17,6 +18,20 @@ Focus timer · Tasks · Habits · Planner · Analytics · Deep Lock — in one p
 </div>
 
 ---
+
+## 📲 Get Student OS
+
+<a href="https://play.google.com/store/apps/details?id=com.jainam.studentos">
+  <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="72" />
+</a>
+
+| Platform | How to install |
+|----------|----------------|
+| **Android** | [**Google Play**](https://play.google.com/store/apps/details?id=com.jainam.studentos) (recommended) · or download the [**latest APK**](https://github.com/jainam6610/student-os/releases/latest) from the Releases page |
+| **Web / Desktop** | It's a PWA — open the app in a browser and choose *"Add to Home Screen"* / *"Install"* to use it offline |
+| **Build from source** | See [Getting Started](#getting-started) below |
+
+> The APK on the Releases page is a **debug build** intended for sideloading and testing. For everyday use, install from Google Play.
 
 ## Why Student OS
 
